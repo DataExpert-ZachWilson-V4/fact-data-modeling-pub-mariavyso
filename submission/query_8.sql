@@ -18,7 +18,7 @@ WITH
         FROM
             mariavyso.daily_web_metrics
         WHERE
-            DATE = DATE('2023-08-04')
+            date = DATE('2023-08-04')
     )
 SELECT
     COALESCE(t.host, y.host) AS host,
