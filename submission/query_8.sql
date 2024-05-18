@@ -16,7 +16,7 @@ WITH
         SELECT
             *
         FROM
-            mariavyso.daily_web_metrics
+            daily_web_metrics
         WHERE
             date = DATE('2023-08-04')
     )
